@@ -1,0 +1,243 @@
+.page{
+width: 90%;
+max-width: 1140px;
+margin-left: auto;
+margin-right: auto;
+height: 100vh;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+}
+
+.header{
+    width: 100%;
+    background-image: url(./image/pic__COLOR_landing-logo.svg);
+    background-color: #073042;
+    height: 664px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header__title{
+    text-align: center;
+     color: #fff;
+     font-size: 50px;
+     line-height: 58px;
+     margin: 0;
+}
+
+.header__time{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 58px;
+    color: #fff;
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.header__date{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 58px;
+    color: #fff;
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tech{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tech__heading{
+    margin: 0;
+    margin-top: 100px;
+    margin-bottom: 23px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: left;
+    border-bottom: 1px solid #000;
+}
+
+.tech__title{
+    margin: 0;
+    margin-top: 90px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 58px;
+    text-align: center;
+}
+
+.tech__subtitle{
+    max-width: 400px;
+    margin: 0;
+    margin-top: 26px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tech__blocks{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 290px;
+    justify-content: space-between;
+}
+
+.tech__block{
+    width:90px ;
+    height:60px ;
+    background-color: #e8e8e8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 80px;
+    width: 100%;
+}
+.about__heading{
+    margin: 0;
+    margin-top: 100px;
+    margin-bottom: 23px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: left;
+    border-bottom: 1px solid #000;
+}
+
+.about__image {
+    width: 270px;
+    height: 327px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.about__block {
+    margin-top: 66px;
+    display: flex;
+    flex-wrap:wrap ;
+}
+
+.about__block-title {
+    display: flex;
+    flex-direction: column;
+    min-width: 280px;
+    max-width: 844px;
+}
+
+.about__title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal
+    font-size 18px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0;
+    margin-top: 18px;
+}
+
+.about__text{
+    margin: 0;
+    margin-top: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.websites{
+    display: flex;
+    flex-direction: column;
+}
+
+.websites__heading{
+    margin: 0;
+    margin-top: 100px;
+    margin-bottom: 23px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: left;
+    border-bottom: 1px solid #000;
+}
+
+.websites__block-link{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid  #e6e6e6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.websites__link{
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.websites__link-image{
+    width: 40px;
+    height: 40px;
+}
+
+.none__border{
+    border: none;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__block-link{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer__heading{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.footer__name-user{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.footer__link{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
